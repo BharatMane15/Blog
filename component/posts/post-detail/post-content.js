@@ -14,7 +14,6 @@ SyntaxHighlighter.registerLanguage("css", css);
 function PostContent(props) {
   const { post } = props;
   const imagePath = `/images/posts/${post.image}`;
-
   const customRenderers = {
     p(paragraph) {
       const { node } = paragraph;
